@@ -1,0 +1,22 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: end;
+  grid-gap: 15px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}

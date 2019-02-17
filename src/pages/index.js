@@ -8,9 +8,11 @@ import styles from "./main.module.css";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <ProfileImage />
-    <h1>Vaidotas Piekus</h1>
-    <p>Web Developer</p>
+    <div className={styles.bioCard}>
+      <ProfileImage />
+      <h1 className={styles.name}>Vaidotas Piekus</h1>
+      <p>Web Developer</p>
+    </div>
   </Layout>
 );
 

@@ -3,15 +3,16 @@ footer {
   padding-top: 20px;
   width: 50vw;
   margin: 0 auto;
+  margin-top: 40px;
 }
 .wrapper {
-  display: grid;
-  grid-gap: 5px;
-  width: 200px;
-  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
-  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .icon {
   width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }

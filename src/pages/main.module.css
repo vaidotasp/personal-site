@@ -1,4 +1,17 @@
+.bioCard {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
 .profileImg {
   width: 100px;
   border-radius: 50px;
+  margin: 0 auto;
+}
+
+.name {
+  margin: 0;
 }
