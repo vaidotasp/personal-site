@@ -1,0 +1,17 @@
+footer {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  width: 50vw;
+  margin: 0 auto;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  width: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  justify-items: center;
+}
+
+.icon {
+  width: 20px;
+}
