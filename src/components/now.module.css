@@ -1,0 +1,13 @@
+.now {
+  margin-top: 20px;
+  border-left: 1px solid #231a1a1a;
+  padding-left: 50px;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

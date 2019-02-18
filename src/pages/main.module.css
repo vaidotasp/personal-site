@@ -15,3 +15,32 @@
 .name {
   margin: 0;
 }
+
+.about {
+  margin-top: 20px;
+}
+
+.infoPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.icon {
+  width: 30px;
+  margin: 0;
+}
+
+.skillList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin: 0;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
