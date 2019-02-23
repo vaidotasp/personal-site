@@ -60,15 +60,7 @@ function Project(props) {
   }
 
   const { title, description, image, tech, demoURL, ghURL } = props;
-  const techList = tech.map((val, index) => {
-    console.log(tech.length);
-    if (index === tech.length - 1) {
-      return <span>{val}</span>;
-    } else {
-      return <span>{val}, </span>;
-    }
-  });
-
+  const techList = tech.join(", ");
   const imgPath = getImgPath(props.data, image);
 
   return (

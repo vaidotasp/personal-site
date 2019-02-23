@@ -24,7 +24,7 @@ const Header = () => (
           <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className={styles.list}>
-          <Link to="/resume">About/Resume</Link>
+          <Link to="/about">About/Resume</Link>
         </li>
       </nav>
     </div>

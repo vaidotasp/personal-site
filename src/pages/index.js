@@ -3,9 +3,10 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ProfileImage from "../components/profile-img";
 import SEO from "../components/seo";
-import Now from "../components/Now";
+import Now from "../components/now";
 import styles from "./main.module.css";
 
+// import icons for skills section
 import js from "../images/javascript.svg";
 import node from "../images/nodejs.svg";
 import ht from "../images/html.svg";
