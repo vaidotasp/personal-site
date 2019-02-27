@@ -1,6 +1,5 @@
 import React from "react";
 import SEO from "../components/seo";
-// import styles from "./portfolio.module.css";
 import Layout from "../components/layout";
 import Now from "../components/now";
 
