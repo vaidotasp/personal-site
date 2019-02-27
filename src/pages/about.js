@@ -2,6 +2,7 @@ import React from "react";
 import SEO from "../components/seo";
 import styles from "./about.module.css";
 import Layout from "../components/layout";
+import Abba from "../components/abba";
 import ppp from "../content/Vaidotas Piekus Resume.pdf";
 function AboutPage() {
   console.log(ppp);
@@ -17,6 +18,7 @@ function AboutPage() {
           <a href={ppp} target="_blank" className={styles.downloadBtn}>
             Resume in PDF
           </a>
+          <Abba />
         </div>
       </div>
     </Layout>
