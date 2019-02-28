@@ -26,3 +26,20 @@ function AboutPage() {
 }
 
 export default AboutPage;
+
+/*
+Query:
+
+{
+  allMarkdownRemark(
+    filter: { fileAbsolutePath: {regex: "\/pages/"}}
+  ) {
+    edges {
+      node {
+        html
+      }
+    }
+  }
+}
+
+*/
