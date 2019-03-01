@@ -2,9 +2,7 @@
 type: "about"
 ---
 
-### Summary
-
-I am a Web Developer currently based in Washington DC, USA. I focus on delivering performant, modern and pleasant web experiences to the users of the web. You can learn about my longer story, experience and interests by reading along or jump straight to my **portfolio**, **blog** or take a look at my resume.
+I am a Web Developer currently based in Washington DC, USA. I focus on delivering performant, modern and pleasant web experiences to the users of the web. You can learn about my longer story, experience and interests by reading along or jump straight to my [**portfolio**](/portfolio), [**blog**](https://dev.to/vaidotas) or take a look at my resume.
 
 ### Coding Story
 
@@ -18,9 +16,4 @@ I specialize in semantic HTML, accessible website delivery and performant experi
 
 ### Get in touch
 
-If you want to collaborate on a project or discuss how I can be of service, feel free to reach me in any of the ways below:
-
-- [E-mail](mailto:vaidotasp@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/vaidotas-piekus/)
-- [Twitter](https://twitter.com/vaidotaspi)
-- [GitHub](https://github.com/vaidotasp)
+If you want to collaborate on a project or discuss how I can be of service, feel free to reach me in any of the ways you can find below.

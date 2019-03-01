@@ -12,3 +12,9 @@
 .downloadBtn:hover {
   color: gold;
 }
+
+.topSection {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 50px;
+}
