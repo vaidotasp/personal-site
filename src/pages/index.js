@@ -28,9 +28,9 @@ const IndexPage = () => (
           I’m a web developer in Washington D.C. with expertise in all things web -- ranging from front-end to back-end
           and anything in between. I have experience in designing and building modern websites for clients and working
           on full stack applications. Take a look at my work
-          <Link className={styles.link} to="/portfolio">
+          <Link to="/portfolio">
             {" "}
-            here
+            <span className={styles.link}>here</span>
           </Link>
           .
         </p>

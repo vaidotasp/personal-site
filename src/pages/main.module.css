@@ -44,3 +44,8 @@
   justify-self: center;
   align-items: center;
 }
+
+.link {
+  text-transform: underscore;
+  color: blue;
+}
