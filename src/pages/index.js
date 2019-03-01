@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ProfileImage from "../components/profile-img";
 import SEO from "../components/seo";
-import Now from "../components/now";
+import NowContent from "../components/NowContent";
 import styles from "./main.module.css";
 
 // import icons for skills section
@@ -58,7 +58,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-      <Now />
+      <NowContent />
     </div>
   </Layout>
 );

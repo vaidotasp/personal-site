@@ -3,7 +3,7 @@ import styles from "./now.module.css";
 
 const date = "Feb 18, 2019";
 
-function Now() {
+function NowContent() {
   return (
     <div className={styles.now}>
       <h4>Now</h4>
@@ -45,4 +45,4 @@ function Now() {
   );
 }
 
-export default Now;
+export default NowContent;
