@@ -11,3 +11,10 @@
 .link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 770px) {
+  .now {
+    border-left: 0;
+    padding-left: 0;
+  }
+}

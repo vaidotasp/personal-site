@@ -6,6 +6,23 @@
   padding-left: 200px;
 }
 
+.infoPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+@media screen and (max-width: 770px) {
+  .bioCard {
+    margin-top: 1rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .infoPanel {
+    grid-template-columns: 1fr;
+  }
+}
+
 .profileImg {
   width: 100px;
   border-radius: 50px;
@@ -18,12 +35,6 @@
 
 .about {
   margin-top: 20px;
-}
-
-.infoPanel {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
 }
 
 .icon {
