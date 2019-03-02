@@ -2,6 +2,12 @@
   padding-top: 100px;
 }
 
+@media screen and (max-width: 770px) {
+  .title {
+    padding-top: 0;
+  }
+}
+
 .title,
 .subtitle {
   text-align: center;
@@ -16,6 +22,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 770px) {
+  .projectsContainer {
+    width: auto;
+  }
+}
+
 .projectCard {
   padding: 10px;
   height: 100%;
@@ -25,6 +37,16 @@
   border-radius: 2px;
   border: 1px solid black;
   box-shadow: 2px 2px #00000021;
+}
+
+@media screen and (max-width: 770px) {
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 0;
+  }
 }
 
 .projectTitle {
