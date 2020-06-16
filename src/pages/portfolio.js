@@ -9,15 +9,6 @@ import monitor from "../images/monitor.svg";
 
 const projects = [
   {
-    title: "Asana Dashboard Tool",
-    description:
-      "A dashboard that uses React to track existing projects and generate reports in Asana project management tool.",
-    image: "imgAsana",
-    demoURL: "https://asana-dashboard.herokuapp.com/",
-    ghURL: "https://www.github.com/vaidotasp/asana-client",
-    tech: ["javascript", "react", "node"]
-  },
-  {
     title: "Odliva Product Page",
     description: "Project built for freelance client showcasing products and providing a contact form.",
     image: "imgOdliva",
@@ -95,13 +86,6 @@ export const pageQuery = graphql`
     imgPairup: file(relativePath: { eq: "pairup.png" }) {
       childImageSharp {
         fluid(maxWidth: 200) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    imgAsana: file(relativePath: { eq: "asana.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
         }
       }
