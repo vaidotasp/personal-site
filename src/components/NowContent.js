@@ -21,30 +21,13 @@ function NowContent() {
       </p>
       <ul style={{ margin: 0 }}>
         <li>
-          <span>• Summer is almost here in Washington DC, bracing for it.</span>
+          <span>•Autumn in Washington DC, likely the best season.</span>
         </li>
         <li>
-          <span>
-            • Occasionally writing on{" "}
-            <a className={styles.link} href="https://dev.to/vaidotas">
-              Dev.to&nbsp;
-            </a>
-            about learning to code and other topics
-          </span>
+          <span>•Going through TSCONF 2020 videos, a few good gems - recommend checking out the keynote at minimum.</span>
         </li>
         <li>
-          <span>• Currently reading Sandman Vol. 6</span>
-        </li>
-        <li>
-          <span>
-            • Obsessing over wrist watches, namely{" "}
-            <a
-              className={styles.link}
-              href="https://www.grand-seiko.com/us-en/collections/sbgh267g"
-            >
-              Grand Seiko
-            </a>
-          </span>
+          <span>•Looking to write my next blog post, undecided yet, but probably talking about refactoring and how to "sell" it.</span>
         </li>
       </ul>
     </div>
