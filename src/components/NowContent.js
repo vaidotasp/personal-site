@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./now.module.css";
 
-const date = "Feb 18, 2019";
+const date = "Oct 18, 2020";
 
 function NowContent() {
   return (

@@ -8,6 +8,7 @@ import styles from "./main.module.css";
 
 // import icons for skills section
 import js from "../images/javascript.svg";
+import ts from "../images/typescript.svg";
 import node from "../images/nodejs.svg";
 import ht from "../images/html.svg";
 import css from "../images/css.svg";
@@ -37,24 +38,28 @@ const IndexPage = () => (
         <h4>Skills</h4>
         <ul className={styles.skillList}>
           <li className={styles.skill}>
-            <img className={styles.icon} src={ht} alt="html-icon" />
-            <p>HTML</p>
-          </li>
-          <li className={styles.skill}>
-            <img className={styles.icon} src={css} alt="css-icon" />
-            <p>CSS</p>
-          </li>
-          <li className={styles.skill}>
             <img className={styles.icon} src={js} alt="javascript-icon" />
             <p>JavaScript</p>
+          </li>
+          <li className={styles.skill}>
+            <img className={styles.icon} src={ts} alt="typescript-icon" />
+            <p>TypeScript</p>
+          </li>
+          <li className={styles.skill}>
+            <img className={styles.icon} src={rc} alt="react-icon" />
+            <p>React</p>
           </li>
           <li className={styles.skill}>
             <img className={styles.icon} src={node} alt="node-icon" />
             <p>Nodejs</p>
           </li>
           <li className={styles.skill}>
-            <img className={styles.icon} src={rc} alt="react-icon" />
-            <p>React</p>
+            <img className={styles.icon} src={ht} alt="html-icon" />
+            <p>HTML</p>
+          </li>
+          <li className={styles.skill}>
+            <img className={styles.icon} src={css} alt="css-icon" />
+            <p>CSS</p>
           </li>
         </ul>
       </div>
