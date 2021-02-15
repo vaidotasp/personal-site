@@ -1,5 +1,4 @@
 import React from "react";
-import SEO from "../components/seo";
 import styles from "./portfolio.module.css";
 import Layout from "../components/layout";
 import { graphql } from "gatsby";
@@ -33,7 +32,6 @@ function PortfolioPage(props) {
 
   return (
     <Layout>
-      <SEO title="portfolio" keywords={["portfolio", "react", "seo"]} />
       <div style={{ maxWidth: 960 }}>
         <h2 className={styles.title}>Portfolio</h2>
         <p className={styles.subtitle}>Here are examples of what I've done</p>

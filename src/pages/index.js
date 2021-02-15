@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
 import ProfileImage from "../components/profile-img";
-import SEO from "../components/seo";
 import NowContent from "../components/NowContent";
 import styles from "./main.module.css";
 
@@ -15,7 +14,6 @@ import rc from "../images/react.svg";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className={styles.bioCard}>
       <ProfileImage />
       <h1 className={styles.name}>Vaidotas Piekus</h1>
