@@ -1,6 +1,7 @@
 .bioCard {
   text-align: center;
   margin-top: 5rem;
+  margin-bottom: 1rem;
   padding: 20px;
   padding-right: 200px;
   padding-left: 200px;
@@ -15,6 +16,7 @@
 @media screen and (max-width: 770px) {
   .bioCard {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-right: 0;
     padding-left: 0;
   }
@@ -54,6 +56,10 @@
   flex-direction: column;
   justify-self: center;
   align-items: center;
+}
+
+.skillLabel {
+  font-size: 0.8rem;
 }
 
 .link {

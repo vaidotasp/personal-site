@@ -20,46 +20,53 @@ const IndexPage = () => (
     <div className={styles.bioCard}>
       <ProfileImage />
       <h1 className={styles.name}>Vaidotas Piekus</h1>
-      <p>Web Developer</p>
     </div>
     <div className={styles.infoPanel}>
       <div className={styles.about}>
         <h4>About Me</h4>
         <p>
-          I’m a web developer in Washington D.C. with expertise in all things web -- ranging from front-end to back-end
-          and anything in between. I have experience in designing and building modern websites for clients and working
-          on full stack applications. Take a look at my work
-          <Link to="/portfolio">
-            {" "}
-            <span className={styles.link}>here</span>
-          </Link>
-          .
+          I am a full-stack developer based in Washington D.C. I build performant,
+          high quality applications in React and TypeScript.
+          Currently, I work at{" "}
+          <a
+            className={styles.link}
+            href="https://www.blueraster.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Blue Raster
+          </a>
+          {" "}where we build interactive geospatial applications for the web.
+        </p>
+        <p>
+          When I am not programming I enjoy obsessing over keyboards, photography
+          and coffee.
         </p>
         <h4>Skills</h4>
         <ul className={styles.skillList}>
           <li className={styles.skill}>
             <img className={styles.icon} src={js} alt="javascript-icon" />
-            <p>JavaScript</p>
+            <p className={styles.skillLabel}>JavaScript</p>
           </li>
           <li className={styles.skill}>
             <img className={styles.icon} src={ts} alt="typescript-icon" />
-            <p>TypeScript</p>
+            <p className={styles.skillLabel}>TypeScript</p>
           </li>
           <li className={styles.skill}>
             <img className={styles.icon} src={rc} alt="react-icon" />
-            <p>React</p>
+            <p className={styles.skillLabel}>React</p>
           </li>
           <li className={styles.skill}>
             <img className={styles.icon} src={node} alt="node-icon" />
-            <p>Nodejs</p>
+            <p className={styles.skillLabel}>Nodejs</p>
           </li>
           <li className={styles.skill}>
             <img className={styles.icon} src={ht} alt="html-icon" />
-            <p>HTML</p>
+            <p className={styles.skillLabel}>HTML</p>
           </li>
           <li className={styles.skill}>
             <img className={styles.icon} src={css} alt="css-icon" />
-            <p>CSS</p>
+            <p className={styles.skillLabel}>CSS</p>
           </li>
         </ul>
       </div>

@@ -1,4 +1,4 @@
-I am a Web Developer currently based in Washington DC, USA. I focus on delivering performant, modern and pleasant web experiences to the users of the web. You can learn about my longer story, experience and interests by reading along or jump straight to my [**portfolio**](/portfolio), [**blog**](https://dev.to/vaidotas) or take a look at my resume.
+I am a Web Developer currently based in Washington DC, USA. I focus on delivering performant, modern and pleasant web experiences to the users of the web. You can learn about my longer story, experience and interests by reading along or jump straight to my [**blog**](https://dev.to/vaidotas) or take a look at my resume.
 
 ### Coding Story
 

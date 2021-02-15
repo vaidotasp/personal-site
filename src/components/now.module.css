@@ -12,6 +12,12 @@
   text-decoration: underline;
 }
 
+.listItem {
+  font-size: 0.9rem;
+  text-decoration: italic;
+  list-style-type: square;
+}
+
 @media screen and (max-width: 770px) {
   .now {
     border-left: 0;

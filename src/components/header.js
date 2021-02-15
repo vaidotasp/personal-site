@@ -5,7 +5,7 @@ import styles from "./header.module.css";
 const Header = () => (
   <header
     style={{
-      marginBottom: `1.45rem`
+      marginBottom: `1.45rem`,
     }}
   >
     <div className={styles.container}>
@@ -18,12 +18,6 @@ const Header = () => (
         </li>
         <li className={styles.list}>
           <a href="https://dev.to/vaidotas">Blog</a>
-        </li>
-        <li className={styles.list}>
-          <Link to="/portfolio">Portfolio</Link>
-        </li>
-        <li className={styles.list}>
-          <Link to="/about">About</Link>
         </li>
       </nav>
     </div>
