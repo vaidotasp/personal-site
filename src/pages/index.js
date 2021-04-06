@@ -22,7 +22,7 @@ const IndexPage = () => (
       <div className={styles.about}>
         <h4>About Me</h4>
         <p>
-          I am a full-stack developer based in Washington D.C. I build performant,
+          I am a full-stack developer based in Stuttgart, Germany. I build performant,
           high quality applications in React and TypeScript.
           Currently, I work at{" "}
           <a

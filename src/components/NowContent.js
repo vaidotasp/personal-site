@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./now.module.css";
 
-const date = "Feb 15, 2021";
+const date = "April 15, 2021";
 
 function NowContent() {
   return (
@@ -20,6 +20,9 @@ function NowContent() {
         page, here is what I am doing right now as of {date}:
       </p>
       <ul style={{ margin: 0 }}>
+      <li className={styles.listItem} >
+          <span>Just moved to Germany, lots of things to setup and learn.</span>
+        </li>
         <li className={styles.listItem} >
           <span>Experimenting with Go language by building a weather forecast CLI tool.</span>
         </li>
