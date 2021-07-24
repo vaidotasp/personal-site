@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>VP: Site</title>
+</svelte:head>
+
 <script>
   import InfoCard from "../components/InfoCard.svelte";
   import AboutMe from "../components/AboutMe.svelte";
