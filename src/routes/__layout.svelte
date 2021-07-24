@@ -8,7 +8,7 @@
 
 <footer>
   <div class="social">
-    <a target="_blank" href="https://github.com/vaidotasp">
+    <a target="_blank" href="https://github.com/vaidotasp" rel="noopener noreferrer">
       <img class="icon" src="github.svg" alt="github" />
     </a>
     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/vaidotaspi">
@@ -31,8 +31,8 @@
   :global(body) {
     margin: 0;
     padding: 0.5rem 2rem 0.5rem 3rem;
-    font-family:'Work Sans','Helvetica Neue','Segoe UI','Helvetica','Arial', sans-serif;
-    color: hsla(0,0%,0%,0.8);
+    font-family: "Work Sans", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
+    color: hsla(0, 0%, 0%, 0.8);
   }
 
   nav {
