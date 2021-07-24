@@ -1,12 +1,12 @@
 <script>
   import InfoCard from "../components/InfoCard.svelte";
-  import About from "../components/About.svelte";
+  import AboutMe from "../components/AboutMe.svelte";
   import Now from "../components/Now.svelte";
 </script>
 
 <InfoCard />
 <div class="main">
-  <About />
+  <AboutMe />
   <Now />
 </div>
 
