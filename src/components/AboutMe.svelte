@@ -6,14 +6,14 @@
   <h4>About Me</h4>
   <p>
     I am a full-stack developer based in Stuttgart, Germany. I build performant, high quality
-    applications in React and TypeScript. Currently, I work at<!-- -->
-    <a
+    applications in React and TypeScript. Currently, I work at X<!-- -->
+    <!-- <a
       class="main-module--link--3u0eq"
       href="https://www.blueraster.com"
       target="_blank"
       rel="noopener noreferrer">Blue Raster</a
-    >
-    <!-- -->where we build interactive geospatial applications for the web.
+    > -->
+    <!-- where we build interactive geospatial applications for the web.-->
   </p>
   <p>When I am not programming I enjoy obsessing over keyboards, photography and coffee.</p>
   <Skills />
