@@ -7,23 +7,23 @@
       target="_blank"
       href="https://nownownow.com/about"
       rel="noopener noreferrer">nownownow&nbsp;</a
-    >page, here is what I am doing right now as of <!-- -->April 15, 2021<!-- -->:
+    >page, here is what I am doing right now as of <!-- -->December 11, 2021<!-- -->:
   </p>
 
   <ul>
     <li>
-      <span>Just moved to Germany, lots of things to setup and learn.</span>
+      <span
+        >Quitting my old job and starting a new one. Nothing like a fresh smell of unpacking a new
+        mac from a box.</span
+      >
     </li>
     <li>
-      <span>Experimenting with Go language by building a weather forecast CLI tool.</span>
+      <span>Reading the Rust Book</span>
     </li>
     <li>
       <span
         >Diving deep in React Testing Library and other testing approaches for React applications.</span
       >
-    </li>
-    <li>
-      <span>Writing a blog post about legacy code why it is awesome to work on.</span>
     </li>
   </ul>
 </div>
