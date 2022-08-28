@@ -1,23 +1,32 @@
 {
-  "name": "personal-site-svelte",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --check --plugin-search-dir=. .",
-    "format": "prettier --write --plugin-search-dir=. ."
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-netlify": "^1.0.0-next.35",
-    "@sveltejs/kit": "^1.0.0-next.201",
-    "prettier": "^2.5.1",
-    "svelte": "^3.44.2",
-    "svelte-check": "^2.2.10",
-    "svelte-preprocess": "^4.0.0",
-    "typescript": "^4.5.3"
-  },
-  "type": "module"
+	"name": "personal-site",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "astro dev",
+		"add": "astro add",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vaidotasp/personal-site.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vaidotasp/personal-site/issues"
+	},
+	"homepage": "https://github.com/vaidotasp/personal-site#readme",
+	"dependencies": {
+		"astro": "^1.1.1"
+	},
+	"devDependencies": {
+		"@astrojs/tailwind": "^1.0.0",
+		"prettier": "^2.7.1",
+		"prettier-plugin-astro": "^0.5.3"
+	}
 }
