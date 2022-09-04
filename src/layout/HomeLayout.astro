@@ -4,44 +4,51 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>My Cool Astro Site</title>
+		<title>Vaidotas Personal Site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
 	<body>
 		<nav class="grid grid-cols-[1fr_auto_auto] gap-4 align-middle justify-center">
 			<a class="text-4xl font-bold" href=".">VP</a>
 			<a class="text-lg semi-bold" href=".">Home</a>
-			<a class="text-lg semi-bold" href="blog">Blog</a>
 		</nav>
-		<main>
-			<slot />
+		<main class="grid grid-rows-[1fr_auto] h-[calc(100vh-75px)]">
+			<section class="pl-8 pr-8">
+				<slot />
+			</section>
+			<footer
+				class="mt-4 pt-3 w-[600px] border-t-gray-200 border-t-2 flex justify-center m-[0_auto]"
+			>
+				<div class="flex row-auto gap-2 pb-3 justify-center align-middle">
+					<a target="_blank" href="https://github.com/vaidotasp" rel="noopener noreferrer">
+						<img class="w-5 h-5" src="github.svg" alt="github" />
+					</a>
+					<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/vaidotaspi">
+						<img class="w-5 h-5" src="twitter.svg" alt="twitter" />
+					</a>
+					<a target="_blank" rel="noopener noreferrer" href="mailto:vaidotasp@gmail.com">
+						<img class="w-5 h-5" src="mail.svg" alt="email" />
+					</a>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://www.linkedin.com/in/vaidotas-piekus-19a24021/"
+					>
+						<img class="w-5 h-5" src="ln.svg" alt="linkedin" />
+					</a>
+				</div>
+			</footer>
 		</main>
-		<footer class="pt-3 w-[600px] border-t-gray-200 border-t-2 flex justify-center m-[0_auto]">
-			<div class="flex row-auto gap-2 pb-3 justify-center align-middle">
-				<a target="_blank" href="https://github.com/vaidotasp" rel="noopener noreferrer">
-					<img class="w-5 h-5" src="github.svg" alt="github" />
-				</a>
-				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/vaidotaspi">
-					<img class="w-5 h-5" src="twitter.svg" alt="twitter" />
-				</a>
-				<a target="_blank" rel="noopener noreferrer" href="mailto:vaidotasp@gmail.com">
-					<img class="w-5 h-5" src="mail.svg" alt="email" />
-				</a>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://www.linkedin.com/in/vaidotas-piekus-19a24021/"
-				>
-					<img class="w-5 h-5" src="ln.svg" alt="linkedin" />
-				</a>
-			</div>
-		</footer>
 		<style is:global>
+			html {
+				height: 100%;
+			}
 			body {
 				margin: 0;
 				padding: 0.5rem 2rem 0.5rem 3rem;
 				font-family: "Work Sans", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", sans-serif;
 				color: hsla(0, 0%, 0%, 0.8);
+				min-height: 100%;
 			}
 		</style>
 	</body>
