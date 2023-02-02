@@ -1,6 +1,4 @@
----
-const posts_enabled = import.meta.env.POSTS_ENABLED === "true";
----
+<!-- TODO: this needs to be changed -->
 
 <html>
 	<head>
@@ -11,7 +9,7 @@ const posts_enabled = import.meta.env.POSTS_ENABLED === "true";
 	<body>
 		<nav>
 			<a href=".">Home</a>
-			{posts_enabled && <a href="posts">Posts</a>}
+			<a href="posts">Posts</a>
 		</nav>
 		<main >
 			<slot />
@@ -34,7 +32,6 @@ const posts_enabled = import.meta.env.POSTS_ENABLED === "true";
 		color: hsla(0, 0%, 0%, 0.8);
 		min-height: 100%;
 		font-size: 1.3rem;
-		font-family: Georgia, serif;
 	}
 </style>
 
