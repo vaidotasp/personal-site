@@ -1,4 +1,5 @@
 ---
+const posts_enabled = import.meta.env.POSTS_ENABLED === "true";
 ---
 
 <html>
@@ -10,7 +11,7 @@
 	<body>
 		<nav>
 			<a href=".">Home</a>
-			<a href="posts">Posts</a>
+			{posts_enabled && <a href="posts">Posts</a>}
 		</nav>
 		<main >
 			<slot />
