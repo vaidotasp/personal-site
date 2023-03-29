@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vaidotas Piekus</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<script>
+
+		console.log('init')
+		function getENVFlags() {
+			// assume Node environment
+			if (process.env && process.env.DEBUG) {
+				console.log('found:')
+				console.log(PROCESS.ENV)
+				console.log(PROCESS.ENV.DEBUG)
+			}
+		}
+
+		getENVFlags();
+
+	</script>
+</head>
+
+<body>
+	<nav>
+		<a class="nav-link" href=".">Home</a>
+	</nav>
+	<main>
+		<section class="profile">
+			<h4>Vaidotas Piekus</h4>
+			<img class="profile-pic" src="./public/profile.jpg" alt="profile-pic">
+			<div class="links">
+				<a target="_blank" href="https://github.com/vaidotasp">
+					<img src="./public/github.svg" alt="github">
+				</a>
+				<a target="_blank" href="https://twitter.com/vaidotaspi">
+					<img src="./public/twitter.svg" alt="twitter">
+				</a>
+				<a target="_blank" href="mailto:vaidotasp@gmail.com">
+					<img src="./public/mail.svg" alt="email">
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/vaidotas-piekus-19a24021/">
+					<img src="./public/ln.svg" alt="linkedin">
+				</a>
+			</div>
+		</section>
+		<section>
+			<section>
+				<h4>About Me</h4>
+				<p>
+					I am a full-stack developer currently based Germany. I build performant, high quality
+					applications in React and TypeScript. I work at <a href="https://www.remote.com" target="_blank">Remote</a>
+					helping to build application platform that enables
+					remote work globally.
+				</p>
+				<p>
+					When I am not programming I enjoy obsessing over <a href="https://www.instagram.com/vaidotas.p"
+						target="_blank">photography</a>, keyboards and coffee.
+				</p>
+			</section>
+			<section>
+				<h4>Now</h4>
+				<p>
+					Inspired by Derek Sivers
+					<a target="_blank" href="https://nownownow.com/about" rel="noopener noreferrer">nownownow</a>
+					page, here is what I am doing right now as of
+					March, 2023:
+				</p>
+				<ul class="list-disc ml-7 mt-1 astro-35FGRGUJ">
+					<li>Getting back to minimalism in my tools and removing custom setups to simplify life.
+					</li>
+					<li>
+						Reading the
+						<a href="https://en.wikipedia.org/wiki/Life_(Richards_book)" target="_blank">Life by
+							Keith Richards</a>. That's quite a life.
+					</li>
+					<li>
+						Reading the
+						<a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/"
+							target="_blank">Designing Data-Intensive Applications by Martin Kleppmann</a>,
+						very extensive overview on all things that are not frontend dev, its good.
+					</li>
+				</ul>
+			</section>
+		</section>
+	</main>
+</body>
+
+</html>
