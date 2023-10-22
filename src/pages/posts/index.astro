@@ -12,7 +12,6 @@ const posts = await getCollection("posts");
 			{
 				posts.map((post) => (
 					<li>
-						<time datetime={post.data.pubDate}>{post.data.pubDate}</time>
 						<a href={`/posts/${post.slug}/`}>{post.data.title}</a>
 					</li>
 				))
