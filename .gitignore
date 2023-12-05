@@ -3,3 +3,5 @@ node_modules
 /package
 /dist
 /.astro
+.astro
+.env
