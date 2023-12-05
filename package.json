@@ -22,10 +22,10 @@
 	},
 	"homepage": "https://github.com/vaidotasp/personal-site#readme",
 	"dependencies": {
-		"@astrojs/mdx": "^0.19.7",
-		"@astrojs/rss": "^3.0.0",
-		"@astrojs/sitemap": "^1.0.1",
-		"astro": "^2.10.15"
+		"@astrojs/mdx": "^2.0.0-beta.0",
+		"@astrojs/rss": "^4.0.0-beta.0",
+		"@astrojs/sitemap": "^3.0.0-beta.0",
+		"astro": "^4.0.0-beta.7"
 	},
 	"devDependencies": {
 		"prettier": "^3.0.3",
