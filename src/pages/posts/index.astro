@@ -10,12 +10,16 @@ const posts = await getCollection("posts");
 	<section>
 		<ul>
 			{
-				posts.map((post) => (
-					<li>
-						<time datetime={post.data.pubDate}>{post.data.pubDate}</time>
-						<a href={`/posts/${post.slug}/`}>{post.data.title}</a>
-					</li>
-				))
+				posts.map((post) => {
+					if (post.data.published) {
+						return (
+						<li>
+							<a href={`/posts/${post.slug}/`}>{post.data.title} ({post.data.pubDate})</a>
+						</li>
+					)
+
+					}
+			})
 			}
 		</ul>
 	</section>
